@@ -1,0 +1,55 @@
+#BACKAND OF THE PROJECT:
+								 Medical Book
+								  (Data Set)
+									  |
+									  |
+									  v
+							    Extract the Docs
+								      |
+									  |
+							__________|__________
+						   |		  |			|
+						   |		  |			|
+						   |		  |			|
+						   v		  v			v
+						Chunck_1  Chunck_2  Chunck_3
+						   |		  |         |
+						   |__________|_________|
+									  |
+									  v
+								   Embedding
+									 Model
+							__________|__________
+						   |		  |			|
+						   |		  |			|
+						   |		  |			|
+						   v		  v			v
+						Vector     Vector    Vector
+					   Embedding Embedding Embedding
+						   |__________|_________|		
+									  |
+									  v
+							  Build Semantic Data
+									  |
+									  |
+									  v
+								Knoewledge Base
+								 (pinecone VDB)
+								 
+								 
+								 
+
+# LLMOPS:
+-> LLMOps stands for large language model operations, and it's the process of managing and operating large language models (LLMs). 
+-> LLMs are AI models that are trained on large datasets of code and text, allowing them to perform language-related tasks like: 
+	1. text generation, 	
+	2. question answering,
+	3. translation.
+	
+# Architect 
+1. OpenAI LLM
+2. Langchain 
+3. pinecone 
+4. Flask
+5. Git/Github
+6. AWS(simple/CI CD)
